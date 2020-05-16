@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Shopping</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='src/style.css'>
+   
+</head>
+<body>
+    <main id="App">
+        <h1>Shopping</h1>
+        <section class=container>
+            <acticle class="menu">
+                <h2>Menu</h2>
+                <form class="addMenuForm">
+                    <div class="addMenu-block">
+                        <input class="menuName"type="text" placeholder="메뉴 입력"/>
+                        <input class="menuPrice" type="text" placeholder="가격 입력"/>
+                        <button class="addBtn">추가</buttom>
+                    </div>
+                </form>  
+                <table class = "menuList">
+                    <thead>
+                        <tr>
+                            <th>메뉴 이름</th>
+                            <th>메뉴 가격</th>
+                            <th>주문</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </acticle>
+            <acticle class="Plist">
+                <h2>Purchase List</h2>
+                <table class = "purchaseList">
+                    <thead>
+                        <tr>
+                            <th>메뉴 이름</th>
+                            <th>메뉴 가격</th>
+                            <th>삭제</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <p>구매 가격 : <span class="cost">0</span></p>
+            </acticle>
+        </section>
+    </main>
+    <script type="module" src='src/main.js'></script>
+</body>
+</html>
